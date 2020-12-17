@@ -11,11 +11,11 @@ Brief explanation:
 - Only the pas2js .js generated file (project1.js) is used
 
 ### rtl.run();
-pas2js generated file (project1.js) is being linked manually in the /public/index.html file 
-The rtl.run() function is called on the App.vue file
+pas2js generated file (project1.js) is being linked manually in the /public/index.html file.
+The rtl.run() function is called on the App.vue file.
 
 ### Prevent linting of pas2js files
-Added .eslintignore file with a rule to ignore js files on /data folder
+Added .eslintignore file with a rule to ignore js files on /data folder.
 
 
 
