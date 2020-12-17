@@ -32,5 +32,4 @@ begin
   pubGen.incAll();
 
   dummy := @getNumStr;    // Hack to force transpilation of unused functions - tks Mattias and Michael :)
-  dummy := @getNumStr;
 end.

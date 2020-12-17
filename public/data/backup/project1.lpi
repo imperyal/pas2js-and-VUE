@@ -16,11 +16,9 @@
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
-    <CustomData Count="4">
+    <CustomData Count="2">
       <Item0 Name="MaintainHTML" Value="1"/>
-      <Item1 Name="PasJSPort" Value="4004"/>
-      <Item2 Name="PasJSWebBrowserProject" Value="1"/>
-      <Item3 Name="RunAtReady" Value="1"/>
+      <Item1 Name="PasJSWebBrowserProject" Value="1"/>
     </CustomData>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -71,9 +69,6 @@
     </Parsing>
     <CodeGeneration>
       <TargetOS Value="browser"/>
-      <Optimizations>
-        <OptimizationLevel Value="0"/>
-      </Optimizations>
     </CodeGeneration>
     <Linking>
       <Debugging>
@@ -82,7 +77,7 @@
       </Debugging>
     </Linking>
     <Other>
-      <CustomOptions Value="-Jeutf-8 -Jirtl.js -Jc -Jminclude -O-"/>
+      <CustomOptions Value="-Jeutf-8 -Jirtl.js -Jc -Jminclude"/>
       <CompilerPath Value="$(pas2js)"/>
     </Other>
   </CompilerOptions>

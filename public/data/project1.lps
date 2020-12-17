@@ -9,9 +9,8 @@
         <Filename Value="project1.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="2"/>
-        <CursorPos X="38" Y="21"/>
-        <UsageCount Value="51"/>
+        <CursorPos X="22" Y="9"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -20,10 +19,9 @@
         <CustomData Count="1">
           <Item0 Name="PasJSIsProjectHTMLFile" Value="1"/>
         </CustomData>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="7" Y="10"/>
-        <UsageCount Value="51"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="52"/>
         <DefaultSyntaxHighlighter Value="HTML"/>
       </Unit1>
       <Unit2>
@@ -32,7 +30,7 @@
         <UnitName Value="U_dcs"/>
         <EditorIndex Value="1"/>
         <CursorPos X="54" Y="39"/>
-        <UsageCount Value="51"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
