@@ -1,17 +1,39 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="incNums">Incrementar todos</button>
+    <ListNums :arrNums="arrNums" :arrStr="arrStr" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import DataHelper from "../public/data/dtmHelper.js";
+import ListNums   from "./components/ListNums.vue";
+
+window.rtl.run();                    // Start pas2js code  
+DataHelper.setDataObj(window.pas);   // Dependency injection of the pas2js code into DataHelper JS module
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ListNums
+  },
+  data() {
+    return {
+      arrNums: [],
+      arrStr: ""
+    };
+  },
+  methods: {
+    incNums() {
+      DataHelper.incNumsArray();                    // Not all Array changes trigger reactivity in VUE
+      this.arrStr = DataHelper.getNumsArrayStr();   // In this example a string is changed to trigger VUE reactivity (quick and dirty)
+    }
+  },
+  mounted() {
+    this.arrNums = DataHelper.getNumsArray();       // Bind the array to this component
+    this.arrStr  = DataHelper.getNumsArrayStr();    // Init the string (used to trigger VUE reactivity)
   }
 }
 </script>

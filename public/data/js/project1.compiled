@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\Users\Imperyal-XE7\Desktop\pas2js-windows-1.4.34\bin\pas2js.exe" Date="1366589814"/>
+  <Params Value=" -Tbrowser -Pecmascript5 -MObjFPC -Sc -O1 -l -vewnhibq -FiC:\Users\Imperyal-XE7\Desktop\VUE_proj\public\data\js -FuC:\Users\Imperyal-XE7\Desktop\VUE_proj\public\data\ -FUC:\Users\Imperyal-XE7\Desktop\VUE_proj\public\data\js\ -FEC:\Users\Imperyal-XE7\Desktop\VUE_proj\public\data\ -oC:\Users\Imperyal-XE7\Desktop\VUE_proj\public\data\project1.js -Jeutf-8 -Jirtl.js -Jc -Jminclude project1.lpr"/>
+</CONFIG>
