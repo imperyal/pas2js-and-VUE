@@ -1,9 +1,8 @@
 # pas2js and VUE
 
 ### VUE using pas2js 
-```
 This simple demo shows a way to use pas2js with VUE, with linting, webpack, hot reload and the other bells and whistles that people use..
-```
+
 
 ### Prevent linting of pas2js files
 ```
