@@ -1,9 +1,4 @@
-# new_pro
-
-## Project setup
-```
-npm install
-```
+# pas2js and VUE
 
 ### Compiles and hot-reloads for development
 ```
